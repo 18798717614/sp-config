@@ -35,4 +35,12 @@ spring:
   profiles: order2
   
 server:
-  port: 8202      
+  port: 8202   
+  
+spring: 
+  rabbitmq: 
+    host: 192.168.0.104
+    port: 5672
+    username: admin
+    password: admin 
+     
